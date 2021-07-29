@@ -15,7 +15,7 @@ app.use(cors());
 app.use('/posts', requests);
 
 
-/* CONNECT VIA MONGODB ATLAS const CONNECTION_URL = 'mongodb+srv://pablogonzalez:987654321@cluster0.gspnt.mongodb.net/001DB?retryWrites=true&w=majority';
+/* CONNECT VIA MONGODB ATLAS const CONNECTION_URL = 'mongodb+srv://pablogonzalez:987654321@cluster/001DB?retryWrites=true&w=majority';
 //const CONNECTION_URL = "mongodb://admin:password@localhost:27017/001DB?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5000;
