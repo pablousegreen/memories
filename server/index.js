@@ -26,7 +26,8 @@ mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: tr
 */
 
 /*  2ND OPTION OK VIA IMAGE   */
-const CONNECTION_URL = 'mongodb://admin:password@mongodb/001DB?authSource=admin';
+//const CONNECTION_URL = 'mongodb://admin:password@mongodb/001DB?authSource=admin';
+const CONNECTION_URL = 'mongodb://localhost:27017/001DB?authSource=admin';
 const options = {
     //user: "admin",
     //pass: "admin123",
